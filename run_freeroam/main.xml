@@ -1,0 +1,85 @@
+<table min_lib_ver="4.5" name="run_freeroam">
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="run_freeroam_level" intro_event="" max_bags="0" music="heist" player_invulnerable="true" player_style="generic" team_ai_off="true">
+		<assets/>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/narr_run"/>
+			<value_node value="levels/narratives/classics/run/world"/>
+			<value_node value="levels/narratives/classics/run/world_sounds"/>
+			<value_node value="levels/narratives/classics/run/collision/collision"/>
+			<value_node value="levels/narratives/classics/run/editor only/editor only"/>
+			<value_node value="levels/narratives/classics/run/dhruva_art/dhruva_art"/>
+			<value_node value="levels/narratives/classics/run/backdrop/backdrop"/>
+			<value_node value="levels/narratives/classics/run/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="custom" id="run_freeroam" jc="50" load_screen="guis/dlcs/pic/textures/loading/job_heatstreet" region="street">
+		<chain>
+			<table level_id="run_freeroam_level" type="d" type_id="heist_type_survive"/>
+		</chain>
+		<contract_cost>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value=""/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="codex/locke1"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="260000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="110000"/>
+			<value_node value="220000"/>
+			<value_node value="550000"/>
+			<value_node value="1.1e+006"/>
+			<value_node value="1.265e+006"/>
+			<value_node value="1.43e+006"/>
+			<value_node value="1.54e+006"/>
+		</payout>
+	</narrative>
+</table>

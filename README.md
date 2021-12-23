@@ -1,2 +1,2 @@
-# pd2-heatstreet-freeroam
-Heatstreet but without cops and just freeroaming :)
+# pd2-maps
+Some small PD2 maps

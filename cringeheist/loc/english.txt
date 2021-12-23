@@ -1,0 +1,8 @@
+{
+	"heist_cringeheist_name":"Wave Based Assault Debug Map"
+	"heist_cringeheist_brief":"An endless wave based assault system"
+	"heist_cringeheist_level_name":"Wave Based Assault Debug Map"
+	"heist_cringeheist_level_brief":"An endless wave based assault system"
+	"objective_survive_wave":"SURVIVE"
+	"objective_survive_wave_desc":"Survive."
+}

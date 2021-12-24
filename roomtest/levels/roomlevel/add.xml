@@ -1,0 +1,571 @@
+<table directory="assets">
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/are/are_off_int_wall_plastic_single_door" type="unit">
+		<material_config path="units/payday2/architecture/are/are_off_int" unload="true"/>
+		<object path="units/payday2/architecture/are/are_off_int_wall_plastic_single_door" unload="true"/>
+		<unit path="units/payday2/architecture/are/are_off_int_wall_plastic_single_door" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_4x4m" type="unit">
+		<material_config path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet" unload="true"/>
+		<object path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_4x4m" unload="true"/>
+		<unit path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_4x4m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_16x24m_a" type="unit">
+		<material_config path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge" unload="true"/>
+		<object path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_16x24m_a" unload="true"/>
+		<unit path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_16x24m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_cop_1/ene_cop_1" type="unit">
+		<unit path="units/payday2/characters/ene_cop_1/ene_cop_1" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<material_config path="units/payday2/characters/ene_cop_1/ene_cop_1" unload="true"/>
+		<object path="units/payday2/characters/ene_cop_1/ene_cop_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_cop_2/ene_cop_2" type="unit">
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<object path="units/payday2/characters/ene_cop_2/ene_cop_2" unload="true"/>
+		<material_config path="units/payday2/characters/ene_cop_2/ene_cop_2" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_cop_2/ene_cop_2_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_swat_1/ene_swat_1" type="unit">
+		<unit path="units/payday2/characters/ene_swat_1/ene_swat_1" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<object path="units/payday2/characters/ene_swat_1/ene_swat_1" unload="true"/>
+		<material_config path="units/payday2/characters/ene_swat_1/ene_swat_1" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<unit path="units/payday2/characters/ene_acc_swat_helmet/ene_acc_swat_helmet" unload="true"/>
+		<object path="units/payday2/characters/ene_acc_swat_helmet/ene_acc_swat_helmet" unload="true"/>
+		<material_config path="units/payday2/characters/ene_acc_swat_helmet/ene_acc_swat_helmet" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_swat_1/ene_swat_1_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_out" unload="true"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/collision/dev_collision_50m/dev_collision_50m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/collision/dev_collision_50m/dev_collision_50m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/collision/dev_collision_50m/dev_collision_50m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_police_washington/str_vehicle_car_police_washington" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_car_police_washington/str_vehicle_car_police_washington" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_police_washington/str_vehicle_car_police_washington" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_police_washington/str_vehicle_car_police_washington" unload="true"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_police_washington/str_vehicle_car_police_washington" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cas_bdrop/cas_bdrop_far_building_b" type="unit">
+		<material_config path="units/payday2/architecture/cas_bdrop/cas_bdrop_buildings" unload="true"/>
+		<object path="units/payday2/architecture/cas_bdrop/cas_bdrop_far_building_b" unload="true"/>
+		<unit path="units/payday2/architecture/cas_bdrop/cas_bdrop_far_building_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cas_bdrop/cas_bdrop_mid_building_b" type="unit">
+		<material_config path="units/payday2/architecture/cas_bdrop/cas_bdrop_buildings" unload="true"/>
+		<object path="units/payday2/architecture/cas_bdrop/cas_bdrop_mid_building_b" unload="true"/>
+		<unit path="units/payday2/architecture/cas_bdrop/cas_bdrop_mid_building_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks" type="unit">
+		<material_config path="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1" unload="true"/>
+		<object path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks" unload="true"/>
+		<unit path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/air_hangar_segment/air_hangar_bdrop" type="unit">
+		<material_config path="units/payday2/architecture/air_hangar_segment/air_hangar_bdrop" unload="true"/>
+		<object path="units/payday2/architecture/air_hangar_segment/air_hangar_bdrop" unload="true"/>
+		<unit path="units/payday2/architecture/air_hangar_segment/air_hangar_bdrop" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/clc/clc_bdrop_mid_front_01_il" type="unit">
+		<material_config path="units/payday2/architecture/clc/clc_bdrop_mid_all_il" unload="true"/>
+		<object path="units/payday2/architecture/clc/clc_bdrop_mid_front_01_il" unload="true"/>
+		<unit path="units/payday2/architecture/clc/clc_bdrop_mid_front_01_il" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_09_32x64" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_09_32x64" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_09_32x64" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_07_32x32" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_07_32x32" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_07_32x32" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_13_32x64" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_13_32x64" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_13_32x64" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x4m_b" type="unit">
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b" unload="true"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x4m_b" unload="true"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x4m_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x2m_a" type="unit">
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b" unload="true"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x2m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b" unload="true"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x8m_a" unload="true"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x8m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<material_config path="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" unload="true"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_road" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_road_16x16m_a" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_road_16x16m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_16x16m_b" type="unit">
+		<material_config path="units/payday2/architecture/str/str" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_road_16x16m_b" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_road_16x16m_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/clc/clc_bdrop_capital_hill_mid_il" type="unit">
+		<material_config path="units/payday2/architecture/clc/clc_capital_monument_il" unload="true"/>
+		<object path="units/payday2/architecture/clc/clc_bdrop_capital_hill_mid_il" unload="true"/>
+		<unit path="units/payday2/architecture/clc/clc_bdrop_capital_hill_mid_il" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/clc/clc_bdrop_mid_rightcorner_01" type="unit">
+		<material_config path="units/payday2/architecture/clc/clc_bdrop_mid_all" unload="true"/>
+		<object path="units/payday2/architecture/clc/clc_bdrop_mid_rightcorner_01" unload="true"/>
+		<unit path="units/payday2/architecture/clc/clc_bdrop_mid_rightcorner_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_far_skyscrapers" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_industrial" unload="true"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_far_skyscrapers" unload="true"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_far_skyscrapers" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02" type="unit">
+		<material_config path="units/world/architecture/backdrops/scrapers/backdrop_scrapers" unload="true"/>
+		<object path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02" unload="true"/>
+		<unit path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_asphalt_8x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_ext_ground_asphalt" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_asphalt_8x8m_a" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_asphalt_8x8m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_asphalt_16x16m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_ext_ground_asphalt" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_asphalt_16x16m_a" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_asphalt_16x16m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_sniper_1/ene_sniper_1" type="unit">
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<object path="units/payday2/characters/ene_sniper_1/ene_sniper_1" unload="true"/>
+		<material_config path="units/payday2/characters/ene_sniper_1/ene_sniper_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/flashlight/flashlight" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/rifle/muzzleflash_3dp" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/sniper_trail" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_upg_fl_ass_smg_sho_peqbox/wpn_npc_upg_fl_ass_smg_sho_peqbox" unload="true"/>
+		<object path="units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_peqbox/wpn_third_upg_fl_ass_smg_sho_peqbox" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_peqbox/wpn_third_upg_fl_ass_smg_sho_peqbox" unload="true"/>
+		<bnk path="soundbanks/weapon_sniper" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_sniper_1/ene_sniper_1_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_sniper_2/ene_sniper_2" type="unit">
+		<unit path="units/payday2/characters/ene_sniper_2/ene_sniper_2" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<object path="units/payday2/characters/ene_sniper_2/ene_sniper_2" unload="true"/>
+		<material_config path="units/payday2/characters/ene_sniper_2/ene_sniper_2" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<object path="units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper" unload="true"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper" unload="true"/>
+		<unit path="units/payday2/weapons/wpn_npc_upg_fl_ass_smg_sho_peqbox/wpn_npc_upg_fl_ass_smg_sho_peqbox" unload="true"/>
+		<object path="units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_peqbox/wpn_third_upg_fl_ass_smg_sho_peqbox" unload="true"/>
+		<material_config path="units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_peqbox/wpn_third_upg_fl_ass_smg_sho_peqbox" unload="true"/>
+		<bnk path="soundbanks/weapon_sniper" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_sniper_2/ene_sniper_2_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/env_0200_night_moon_stars/env_0200_night_moon_stars" type="environment">
+		<environment path="environments/env_0200_night_moon_stars/env_0200_night_moon_stars" unload="true"/>
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars" unload="true"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_04_corner_32x32" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_04_corner_32x32" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_04_corner_32x32" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_11_24x32" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_il" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_11_24x32" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_11_24x32" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_11_24x32_il" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_il" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_11_24x32" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_11_24x32_il" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_10_32x64" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_il" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_10_32x64" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_10_32x64" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_ext_ground_asphalt" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_corner16x16" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_street" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_corner16x16" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_corner16x16" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_swat_2/ene_swat_2" type="unit">
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/payday2/characters/ene_swat_2/ene_swat_2"/>
+		<material_config path="units/payday2/characters/ene_swat_2/ene_swat_2"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<object path="units/payday2/characters/ene_acc_swat_helmet/ene_acc_swat_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_swat_helmet/ene_acc_swat_helmet"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<unit path="units/payday2/characters/ene_swat_2/ene_swat_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_shield_2/ene_shield_2" type="unit">
+		<unit path="units/payday2/characters/ene_shield_2/ene_shield_2"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/payday2/characters/ene_shield_2/ene_shield_2"/>
+		<material_config path="units/payday2/characters/ene_shield_2/ene_shield_2"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<unit path="units/payday2/characters/ene_acc_shield_helmet/ene_acc_shield_helmet"/>
+		<object path="units/payday2/characters/ene_acc_shield_helmet/ene_acc_shield_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_shield_helmet/ene_acc_shield_helmet"/>
+		<unit path="units/payday2/characters/ene_acc_shield_small/shield_small"/>
+		<object path="units/payday2/characters/ene_acc_shield_small/shield_small"/>
+		<material_config path="units/payday2/characters/ene_acc_shield_small/shield_small"/>
+		<sequence_manager path="units/payday2/characters/ene_acc_shield_small/shield_small"/>
+		<unit path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45"/>
+		<object path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45"/>
+		<material_config path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_c45/wpn_npc_c45"/>
+		<bnk path="soundbanks/weapon_c45"/>
+		<unit load="true" path="units/payday2/characters/ene_shield_2/ene_shield_2_husk"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<effect load="true" path="effects/particles/weapons/c45/muzzleflash_3dp"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_fbi_swat_1/ene_fbi_swat_1" type="unit">
+		<unit path="units/payday2/characters/ene_fbi_swat_1/ene_fbi_swat_1"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/payday2/characters/ene_fbi_swat_1/ene_fbi_swat_1"/>
+		<material_config path="units/payday2/characters/ene_fbi_swat_1/ene_fbi_swat_1"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<object path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<unit load="true" path="units/payday2/characters/ene_fbi_swat_1/ene_fbi_swat_1_husk"/>
+		<unit path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<object path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2" type="unit">
+		<unit path="units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2"/>
+		<material_config path="units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2"/>
+		<unit path="units/payday2/characters/ene_acc_bulldozer_helmet_plate_2/ene_acc_bulldozer_helmet_plate_2"/>
+		<object path="units/payday2/characters/ene_acc_bulldozer_helmet_plate_2/ene_acc_bulldozer_helmet_plate_2"/>
+		<material_config path="units/payday2/characters/ene_acc_bulldozer_helmet_plate_2/ene_acc_bulldozer_helmet_plate_2"/>
+		<unit path="units/payday2/characters/ene_acc_bulldozer_chest_2/ene_acc_bulldozer_chest_2"/>
+		<object path="units/payday2/characters/ene_acc_bulldozer_chest_2/ene_acc_bulldozer_chest_2"/>
+		<material_config path="units/payday2/characters/ene_acc_bulldozer_chest_2/ene_acc_bulldozer_chest_2"/>
+		<unit path="units/payday2/characters/ene_acc_bulldozer_stomache_2/ene_acc_bulldozer_stomache_2"/>
+		<object path="units/payday2/characters/ene_acc_bulldozer_stomache_2/ene_acc_bulldozer_stomache_2"/>
+		<material_config path="units/payday2/characters/ene_acc_bulldozer_stomache_2/ene_acc_bulldozer_stomache_2"/>
+		<unit path="units/payday2/characters/ene_acc_bulldozer_back_2/ene_acc_bulldozer_back_2"/>
+		<object path="units/payday2/characters/ene_acc_bulldozer_back_2/ene_acc_bulldozer_back_2"/>
+		<material_config path="units/payday2/characters/ene_acc_bulldozer_back_2/ene_acc_bulldozer_back_2"/>
+		<unit path="units/payday2/characters/ene_acc_bulldozer_throat_2/ene_acc_bulldozer_throat_2"/>
+		<object path="units/payday2/characters/ene_acc_bulldozer_throat_2/ene_acc_bulldozer_throat_2"/>
+		<material_config path="units/payday2/characters/ene_acc_bulldozer_throat_2/ene_acc_bulldozer_throat_2"/>
+		<unit path="units/payday2/characters/ene_acc_bulldozer_neck_2/ene_acc_bulldozer_neck_2"/>
+		<object path="units/payday2/characters/ene_acc_bulldozer_neck_2/ene_acc_bulldozer_neck_2"/>
+		<material_config path="units/payday2/characters/ene_acc_bulldozer_neck_2/ene_acc_bulldozer_neck_2"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<unit load="true" path="units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2_husk"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<effect load="true" path="effects/particles/bullet_hit/glass_breakable/bullet_hit_glass_breakable"/>
+		<sequence_manager path="units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m"/>
+		<unit path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_pillar_05m_a_wood2" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_pillar_05m_a_wood2"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_pillar_05m_a_wood2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/architecture/ind_cardealership_facade/ind_cardealership_facade_pillar" type="unit">
+		<material_config path="units/pd2_dlc_cage/architecture/ind_cardealership_facade/ind_cardealership_facade"/>
+		<object path="units/pd2_dlc_cage/architecture/ind_cardealership_facade/ind_cardealership_facade_pillar"/>
+		<unit path="units/pd2_dlc_cage/architecture/ind_cardealership_facade/ind_cardealership_facade_pillar"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
+</table>

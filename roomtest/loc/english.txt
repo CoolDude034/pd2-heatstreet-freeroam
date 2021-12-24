@@ -1,0 +1,11 @@
+{
+	"heist_roomtest_name" : "The Room"
+	"heist_roomlevel_name" : "The Room"
+	"heist_roomlevel_brief" : "Kill enemies in each area."
+	"heist_roomtest_brief" : "Kill enemies in each area."
+
+	"int_btms_use_computer_civ_text" : "Hold $BTN_INTERACT to use computer."
+	"int_btms_use_weapon_stash_text" : "Hold $BTN_INTERACT to search."
+	"btms_use_weapon_stash_action" : "Searching"
+	"btms_use_computer_civ_action" : "Using computer"
+}

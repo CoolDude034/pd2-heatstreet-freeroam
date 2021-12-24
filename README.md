@@ -1,2 +1,3 @@
-# pd2-heatstreet-freeroam
-Heatstreet but without cops and just freeroaming :)
+# pd2-waveassaultmap
+
+A debug map with a custom assault mechanic

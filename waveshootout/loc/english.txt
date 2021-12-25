@@ -1,0 +1,6 @@
+{
+	"heist_waveshootout_name" : "Police Station Shootout"
+	"heist_waveshootout_brief" : "A Small Police Station Shootout"
+	"heist_waveshootout_level_name" : "Police Station Shootout"
+	"heist_waveshootout_level_brief" : "A Small Police Station Shootout"
+}

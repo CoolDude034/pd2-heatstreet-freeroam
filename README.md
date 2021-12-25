@@ -1,6 +1,8 @@
-# pd2-maps
-A depository for my payday 2 custom maps
+# pd2-waveshootout
+A Small Police Station Shootout
 
+Its located in tutorial heists, yes its not tutorial but i just wanted to be played singleplayer only
 
-its where i dump shit maps (altrough there prob a good heist in them, 99% would be unfinished or bad)
-play at own risk
+Features:
+-Scripted Police Cars
+-Scripted Helicopters (one can respawn each assault wave, while other has 50% chance of occuring when snipers spawn in.)

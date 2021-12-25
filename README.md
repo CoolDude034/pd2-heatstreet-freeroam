@@ -8,3 +8,5 @@ Features:
 Scripted Police Cars
 
 Scripted Helicopters (one can respawn each assault wave, while other has 50% chance of occuring when snipers spawn in.)
+
+it just a test/concept map so don't expect much

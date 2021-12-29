@@ -1,0 +1,6 @@
+{
+	"heist_mkp_bank_name" : "Bank Concept"
+	"heist_mkp_bank_brief" : "A Test map"
+	"heist_mkp_bank_level_name" : "Bank Concept"
+	"heist_mkp_bank_level_brief" : "A Test map"
+}
